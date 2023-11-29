@@ -6,8 +6,8 @@ html {
 }
 
 :root {
-    --primary-color: #ff7e44;
-    --secondary-color: #034b5a;
+    --primary-color: #ee7e1c;
+    --secondary-color: #7a9817;
 }
 
 * {
@@ -81,6 +81,7 @@ ul li:nth-child(6) a {
     background: var(--secondary-color);
     padding: 20px 20px;
     color: #fff;
+    border-radius:  15px;
 }
 
 ul li:nth-child(6) a:hover {
@@ -156,6 +157,7 @@ main #section1 {
 
 #section1 .fila article:nth-child(1) {
     background: #ffffff;
+    border-radius: 20px;
 }
 
 #section1 .fila article:nth-child(1) h2 {
@@ -184,8 +186,12 @@ main #section1 {
 
 #section1 .fila article:nth-child(2) {
     background: var(--secondary-color);
+    border-radius: 20px;
 }
 
+.fotos img{
+    border-radius: 20px;
+}
 #section1 .fila article:nth-child(2) h2 {
     display: flex;
     align-items: center;
@@ -298,6 +304,8 @@ main #section1 {
     background: var(--secondary-color);
     padding: 20px 40px;
     color: #fff;
+    border-radius: 14px;
+    border: 0;
 }
 
 #section2 .fila button:hover {
@@ -314,6 +322,7 @@ main #section1 {
     border-bottom: 4px solid var(--primary-color);
     background: #ffffff;
     position: relative;
+    border-radius: 20px;
 }
 
 #section2 .fila .card::after {
@@ -326,6 +335,7 @@ main #section1 {
     background: var(--secondary-color);
     z-index: 1;
     transition: .4s;
+    border-radius: 20px;
 }
 
 #section2 .fila .card:hover::after {
